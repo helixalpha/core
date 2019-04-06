@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: helixalpha/core:latest
+    ports:
+      - "9122:9122"
+      - "19122:19122"
