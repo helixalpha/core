@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "helixalpha.fullname" . }}
+  labels:
+    app.kubernetes.io/name: {{ include "helixalpha.name" . }}
+    helm.sh/chart: {{ include "helixalpha.chart" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      {{ if eq .Values.service.type "NodePort" }}
+      nodePort: {{ .Values.service.nodePort }}
+      {{ end }}
+      targetPort: daemon
+      protocol: TCP
+      name: daemon
+  selector:
+    app.kubernetes.io/name: {{ include "helixalpha.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
