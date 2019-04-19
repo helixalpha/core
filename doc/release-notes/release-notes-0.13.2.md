@@ -75,7 +75,7 @@ git merge commit are mentioned.
 ### RPC and other APIs
 - #8845 `1d048b9` Don't return the address of a P2SH of a P2SH (jnewbery)
 - #9041 `87fbced` keypoololdest denote Unix epoch, not GMT (s-matthew-english)
-- #9122 `f82c81b` fix getnettotals RPC description about timemillis (visvirial)
+- #9222 `f82c81b` fix getnettotals RPC description about timemillis (visvirial)
 - #9042 `5bcb05d` [rpc] ParseHash: Fail when length is not 64 (MarcoFalke)
 - #9194 `f26dab7` Add option to return non-segwit serialization via rpc (instagibbs)
 - #9347 `b711390` [0.13.2] wallet/rpc backports (MarcoFalke)

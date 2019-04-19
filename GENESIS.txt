@@ -1,0 +1,45 @@
+python genesis.py -a scrypt -z "NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private"     -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9"     -t 1555514174     -n 1416267
+
+
+======================================================================================================================================================
+
+TEST #1 PARAMS
+
+
+python genesis.py -a scrypt -z "NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private" \
+    -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" \
+    -t 1486949366 \
+    -n 783689 \
+    -b 0x1e0ffff0
+
+04ffff001d01044c464f58204e4557532030342f4170722f32303139205553204e617679205345414c2061636375736564206f6620776172206372696d6573207265756e6974657320776974682066616d696c79
+algorithm: scrypt
+merkle hash: d8365144ffafe13b2d2b2f9a42df215a7e9e73aad732a60f624e58ea18c5173e
+pszTimestamp: FOX NEWS 04/Apr/2019 US Navy SEAL accused of war crimes reunites with family
+pubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+time: 1486949366
+bits: 0x1e0ffff0
+genesis hash found!
+nonce: 783689
+genesis hash: 24506b88dec448ef30c8864ebd993d05906c54d237f9c9c695cb01e4e77717e7
+
+======================================================================================================================================================
+
+REG NET TEST PARAMS #2
+
+python genesis.py -a scrypt -z "NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private" \
+    -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" \
+    -t 1296688602 \
+    -n 0 \
+    -b 0x207fffff
+
+04ffff001d01044c464f58204e4557532030342f4170722f32303139205553204e617679205345414c2061636375736564206f6620776172206372696d6573207265756e6974657320776974682066616d696c79
+algorithm: scrypt
+merkle hash: d8365144ffafe13b2d2b2f9a42df215a7e9e73aad732a60f624e58ea18c5173e
+pszTimestamp: FOX NEWS 04/Apr/2019 US Navy SEAL accused of war crimes reunites with family
+pubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+time: 1296688602
+bits: 0x207fffff
+genesis hash found!
+nonce: 0
+genesis hash: 429569852e4b05420e12ca8282a2b26ce9e679b71135f3164ca958adf94080b8

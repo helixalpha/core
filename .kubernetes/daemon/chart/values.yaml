@@ -18,7 +18,7 @@ environment:
 
 service:
   type: NodePort
-  port: 9122
+  port: 9222
   nodePort: 31922
 
 volumes:

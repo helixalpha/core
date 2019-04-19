@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: helixalpha/core:latest
+    ports:
+      - "9223:9222"
+      - "2300:2300"
+      - "19333:19333"
+    volumes:
+      - /root/.helixalpha:/root/.helixalpha
+
+
+      # MV9sVgGpwbJTCatythFABHDM1aw7z7RnMS - POOL WALLET
+      # PORT 9432

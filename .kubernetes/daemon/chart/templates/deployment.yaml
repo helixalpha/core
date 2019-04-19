@@ -32,7 +32,7 @@ spec:
               mountPath: /root/.helixalpha
           ports:
             - name: daemon
-              containerPort: 9122
+              containerPort: 9222
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}

@@ -88,7 +88,7 @@ Comment: Modifications of Stephan Hutchings Typicons
 Files: src/qt/res/icons/about.png
        src/qt/res/icons/bitcoin.*
        share/pixmaps/bitcoin*
-       src/qt/res/src/bitcoin.svg
+       src/qt/res/src/helixalpha.svg
 Copyright: Bitboy, Jonas Schnelli
 License: public-domain
 Comment: Site: https://bitcointalk.org/?topic=1756.0

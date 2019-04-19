@@ -33,5 +33,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Expose Ports
 
-EXPOSE 9122 19122
+EXPOSE 9222 19122
 CMD ["helixalphad", "--printtoconsole"]
