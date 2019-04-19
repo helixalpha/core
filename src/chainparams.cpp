@@ -119,9 +119,9 @@ public:
         nDefaultPort = 9222;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1555695309, 2370046, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1555700090, 1582902, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x5ea72f0d00333c4125aff5316bbf39bed2926d267001e54b24ae03f246f49b3e"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0547f0b4943952e9eb8dc7e4d7495d5d0578ef2d154d5f380b8340112871decd"));
         assert(genesis.hashMerkleRoot == uint256S("0xdf9e3d3e037a675e4da6548f251056d8a11038036bbe4d9fabf29cf0ad790607"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
@@ -153,13 +153,13 @@ public:
 
         checkpointData = {
             {
-                {  0, uint256S("0x5ea72f0d00333c4125aff5316bbf39bed2926d267001e54b24ae03f246f49b3e")}
+                {  0, uint256S("0x0547f0b4943952e9eb8dc7e4d7495d5d0578ef2d154d5f380b8340112871decd")}
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 a601455787cb65ffc325dda4751a99cf01d1567799ec4b04f45bb05f9ef0cbde
-            /* nTime    */ 1555695309,
+            /* nTime    */ 1555700090,
             /* nTxCount */ 0,
             /* dTxRate  */ 0.0
         };

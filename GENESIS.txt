@@ -1,4 +1,13 @@
-python genesis.py -a scrypt -z "NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private"     -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9"     -t 1555514174     -n 1416267
+python genesis.py -a scrypt -z "NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private"     -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9"     -t 1555700090     -n 1582902
+
+04ffff001d01044b4e592054696d65732030362f4170722f32303139205472756d70204c6177796572204173736572747320526967687420746f204b656570205461782052657475726e732050726976617465
+algorithm: scrypt
+merkle hash: df9e3d3e037a675e4da6548f251056d8a11038036bbe4d9fabf29cf0ad790607
+pszTimestamp: NY Times 06/Apr/2019 Trump Lawyer Asserts Right to Keep Tax Returns Private
+pubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+time: 1555700090
+bits: 0x1e0ffff0
+
 
 
 ======================================================================================================================================================
